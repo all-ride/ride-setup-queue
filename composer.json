@@ -1,0 +1,17 @@
+{
+    "name": "ride/setup-queue",
+    "description": "Setup the Ride queue through the Composer dependency manager.",
+    "license": "MIT",
+    "type": "ride-setup",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app-queue-orm": "^1.0.0",
+        "ride/cli-queue": "^1.0.0",
+        "ride/setup-cli": "^1.0.0"
+    }
+}
